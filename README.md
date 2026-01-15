@@ -50,6 +50,7 @@ Le jeu de données provient du système **Capital Bikeshare** (Washington D.C.) 
 ├── README.md               # Ce fichier
 └── uv.lock                 # Lockfile du gestionnaire de paquets
 
+```text
 ### Installation et Utilisation
 
 Ce projet utilise [uv](https://github.com/astral-sh/uv), un gestionnaire de paquets Python extrêmement rapide, pour garantir la reproductibilité de l'environnement grâce au fichier `uv.lock`.
@@ -67,3 +68,4 @@ uv sync
 # Sur macOS/Linux
 source .venv/bin/activate
 jupyter notebook notebook/modele_v1.ipynb
+
