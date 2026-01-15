@@ -58,7 +58,7 @@ Ce projet utilise [uv](https://github.com/astral-sh/uv), un gestionnaire de paqu
 ##### 1. Cloner le projet
 Ouvrez votre terminal et récupérez le dépôt localement :
 ```bash
-git clone [https://github.com/votre-compte/Projet_MLDL_Roland_Lina_Maeva.git](https://github.com/votre-compte/Projet_MLDL_Roland_Lina_Maeva.git)
+git clone https://github.com/Shawndarm/ML_DL_TimeSeries_Project.git
 cd Projet_MLDL_Roland_Lina_Maeva
 ```
 ##### 2. Installe l'environnement complet
@@ -73,4 +73,5 @@ source .venv/bin/activate
 ```bash
 jupyter notebook notebook/modele_v1.ipynb
 ```
+
 
