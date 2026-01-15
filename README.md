@@ -50,4 +50,20 @@ Le jeu de données provient du système **Capital Bikeshare** (Washington D.C.) 
 ├── README.md               # Ce fichier
 └── uv.lock                 # Lockfile du gestionnaire de paquets
 
+### Installation et Utilisation
 
+Ce projet utilise [uv](https://github.com/astral-sh/uv), un gestionnaire de paquets Python extrêmement rapide, pour garantir la reproductibilité de l'environnement grâce au fichier `uv.lock`.
+
+### 1. Cloner le projet
+Ouvrez votre terminal et récupérez le dépôt localement :
+```bash
+git clone [https://github.com/votre-compte/Projet_MLDL_Roland_Lina_Maeva.git](https://github.com/votre-compte/Projet_MLDL_Roland_Lina_Maeva.git)
+cd Projet_MLDL_Roland_Lina_Maeva
+# Installe l'environnement complet
+uv sync
+# Sur Windows (PowerShell)
+.venv\Scripts\activate
+
+# Sur macOS/Linux
+source .venv/bin/activate
+jupyter notebook notebook/modele_v1.ipynb
