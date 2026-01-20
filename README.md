@@ -18,7 +18,7 @@ C'est dans ce contexte que nous avons choisi d'analyser le **Bike Sharing Datase
 * Comparer des algorithmes de **Machine Learning** (ex: XGBoost) et de **Deep Learning** (ex: LSTM).
 * Démontrer l'apport prédictif des variables contextuelles (météo, jours fériés).
 
-###Source des Données
+### Source des Données
 Le jeu de données provient du système **Capital Bikeshare** (Washington D.C.) et les informations météo de **Freemeteo**.
 * **Lien UCI Repository :** [Bike Sharing Dataset](https://archive.ics.uci.edu/ml/datasets/bike+sharing+dataset)
 * **Données sources :** [Capital Bikeshare System Data](http://capitalbikeshare.com/system-data)
@@ -73,6 +73,7 @@ source .venv/bin/activate
 ```bash
 jupyter notebook notebook/modele_v1.ipynb
 ```
+
 
 
 
