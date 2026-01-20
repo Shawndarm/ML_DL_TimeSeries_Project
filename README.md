@@ -55,7 +55,7 @@ Le jeu de données provient du système **Capital Bikeshare** (Washington D.C.) 
 
 Ce projet utilise [uv](https://github.com/astral-sh/uv), un gestionnaire de paquets Python extrêmement rapide, pour garantir la reproductibilité de l'environnement grâce au fichier `uv.lock`.
 
-##### 1. Cloner le projet : dansle terminal
+##### 1. Cloner le projet : dans le terminal
 
 ```bash
 git clone https://github.com/Shawndarm/ML_DL_TimeSeries_Project.git
@@ -73,6 +73,7 @@ source .venv/bin/activate
 ```bash
 jupyter notebook notebook/modele_v1.ipynb
 ```
+
 
 
 
