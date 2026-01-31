@@ -37,9 +37,7 @@ Le jeu de données provient du système **Capital Bikeshare** (Washington D.C.) 
 │   └── Readme.txt
 ├── img/                    # Graphiques et illustrations
 ├── notebook/               # Notebooks Jupyter
-│   ├── deleted_codes.ipynb
 │   ├── modele_v1.ipynb     # Notebook principal
-│   └── washington_weather_2013_Q1.csv
 ├── src/                    # Scripts sources
 │   ├── __pycache__/
 │   └── utils.py            # Fonctions utilitaires (visualisation, etc.)
@@ -73,6 +71,7 @@ source .venv/bin/activate
 ```bash
 jupyter notebook notebook/modele_v1.ipynb
 ```
+
 
 
 
