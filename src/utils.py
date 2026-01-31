@@ -37,3 +37,6 @@ def plot_seasonal_decompose(result: DecomposeResult, title="Décomposition Saiso
             showlegend=False
         )
     )
+
+
+
